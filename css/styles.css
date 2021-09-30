@@ -10,13 +10,34 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ /*은진*/
+
+ /*991px 부터 로고 줄어듬*/
+ @media (max-width: 992px) {
+.logo img {width:50%}
+  }
+ /**/
+
+ /*bg menu*/
+.bg-menu {width: 100%;height: 50px;background-color: #ffc32f; line-height: 50px;
+font-size: 25px}
+/**/
+
+/*profile*/
+.proflie-me {color:#ef4a35; font-size: 30px;}
+.name {line-height: 1.5;}
+
+/*project*/
+.projectimg {padding:5rem 0 }
+.ananti {font-size: 15px;text-align: right;padding-bottom: 125px; padding-right: 15px;}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
-  --bs-orange: #f4623a;
+  --bs-orange: #ef4a35;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #20c997;
@@ -55,11 +76,11 @@
   --bs-font-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Merriweather, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --bs-body-font-family: Noto Sans,
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #000b2e;
   --bs-body-bg: #fff;
 }
 
@@ -235,11 +256,11 @@ sup {
 }
 
 a {
-  color: #f4623a;
+
   text-decoration: underline;
 }
 a:hover {
-  color: #d7d7da;
+  color: #f4623a;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -254,6 +275,25 @@ samp {
   font-family: var(--bs-font-monospace);
   font-size: 1em;
   direction: ltr /* rtl:ignore */;
+  unicode-bidi: bidi-override;
+}
+
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+  font-size: 0.875em;
+}
+pre code {
+  font-size: inherit;
+  color: inherit;
+  word-break: normal;
+}
+
+code {
+  font-size: 0.875em;
+  color: #d63384;
   unicode-bidi: bidi-override;
 }
 
@@ -7796,7 +7836,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #fff !important;
 }
 
 .bg-secondary {
@@ -11286,7 +11326,7 @@ body {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 5rem 0;
 }
 
 .text-white-75 {
