@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*!
+/**!
 * Start Bootstrap - Creative v7.0.4 (https://startbootstrap.com/theme/creative)
 * Copyright 2013-2021 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
@@ -13,26 +13,70 @@
 
  /*은진*/
 
- /*991px 부터 로고 줄어듬*/
- @media (max-width: 992px) {
+/*공통*/
+.profile-text p:nth-child(1) {padding-bottom: 5rem;}
+
+/*모바일*/
+@media (max-width: 992px) {
+.profile-text {width: 100%; text-align:center}
+.profile-img {width: 100%;}
 .logo img {width:50%}
-  }
- /**/
+.bg-menu {width: 100%;height: 30px;background-color: #ffc32f; line-height: 30px;
+  font-size: 15px ; text-align: center;}
+  .aboutme {font-size: 1.2rem;text-align: center; font-weight: bold;}
+  .profile-img img:nth-child(1) {padding-bottom: 7rem;}
+  .profile-text {padding-bottom: 6rem;}
+  .bigbee {width:50%;;}
+  .skill {width: 80%;}
+  .ananti {font-size: 15px;text-align:center;padding: 3rem 2rem;}
+  .portfolio {font-size: 15px;text-align: center; padding:3rem 2rem }
+  .mokup {padding-bottom: 3rem; }
+.mokup img:nth-child(1) {padding-bottom: 3rem;}
 
- /*bg menu*/
+/*contact*/
+#contact {text-align: center; height: 150px;}
+.contact {padding-top: 1rem;}
+.mail {width: 5%;}
+.kakao {width: 5%;}
+
+/*footer*/
+#footer { background-color: #ebebeb; height: 30px;}
+.copyright {text-align: center; line-height: 30px; font-size: 0.5rem; }
+
+
+}
+
+/*pc*/
+@media (min-width: 992px)
+{
+  .profile-text {width: 50%; float:left; }
+  .profile-img {width: 50%; float:right}
+   /*bg menu*/
 .bg-menu {width: 100%;height: 50px;background-color: #ffc32f; line-height: 50px;
-font-size: 25px}
-/**/
+  font-size: 25px}
 
-/*profile*/
-.proflie-me {color:#ef4a35; font-size: 30px;}
-.name {line-height: 1.5;}
+   /*about*/
+   #about {height: 1020px;}
+   .aboutme {font-size: 1.5rem;text-align: center; padding-bottom:10rem}
+   .profile-img img:nth-child(1) {padding-bottom: 6rem;}
 
 /*project*/
-.ananti {font-size: 15px;text-align: right;padding-bottom: 3rem; padding-right: 2rem;}
-.portfolio {font-size: 15px;text-align: right; padding-right: 2rem;}
+.ananti {font-size: 15px;text-align: right;padding: 3rem 2rem;}
+.mokup {padding-bottom: 3rem;}
+.mokup img:nth-child(1) {padding-right: 18rem;}
+.portfolio {font-size: 15px;text-align: right; padding:3rem 2rem }
+}
+
+/*contact*/
+#contact {text-align: center;}
+#contact h3 {font-size: 1rem;}
+#contact p {font-size: 0.5rem;}
+.footerbee {width: 8%;}
 
 
+/*footer*/
+#footer { background-color: #ebebeb; height: 80px;}
+.copyright {text-align: center; line-height: 80px; }
 
 
 
@@ -11386,9 +11430,7 @@ hr.divider-light {
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
   color: #ef4a35;
 }
-#mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
-}
+
 @media (min-width: 992px) {
   #mainNav {
     box-shadow: none;
@@ -11483,7 +11525,7 @@ header.masthead h1, header.masthead .h1 {
   transition: opacity 0.25s ease;
   text-align: center;
 }
-#project .container-fluid .project-box .project-box-caption .project-category, #project .container-sm .project-box .project-box-caption .project-category, #project .container-md .project-box .project-box-caption .project-category, #project .container-lg .project-box .project-box-caption .project-category, #project .container-xl .project-box .project-box-caption .project-category, #project .container-xxl .project-box .project-box-caption .project-category {
+#about #project .container-fluid .project-box .project-box-caption .project-category, #project .container-sm .project-box .project-box-caption .project-category, #project .container-md .project-box .project-box-caption .project-category, #project .container-lg .project-box .project-box-caption .project-category, #project .container-xl .project-box .project-box-caption .project-category, #project .container-xxl .project-box .project-box-caption .project-category {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.85rem;
   font-weight: 600;
