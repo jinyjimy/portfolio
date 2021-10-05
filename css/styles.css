@@ -21,7 +21,7 @@
  /*공통*/
  #home {font-family:"Noto Sans"; color:#fff}
 body {color:#000b2e}
-.title {font-size: 30px; background: #ffc32f;}
+.title {background: #ffc32f;}
 .anantihilton {text-align: right;}
 .projectimg {text-align: right;}
 #footer {width: 100%;background-color: #0c132d;}
@@ -56,7 +56,10 @@ body {color:#000b2e}
   .profile-b1 li {float:left; width: 50%;}
   .education {padding-left: 200px;}
   .license {padding-left: 138px;}
-  .skill {padding-left: 200px;}
+  .license h3 {font-size: 25px; }
+  .education h3 {font-size: 25px; }
+  .skill {padding-left: 200px;text-align: left;}
+  .skill h3 {font-size: 25px; }
   .skill1 {padding-right: 330px;}
   /*contact*/
 
@@ -82,27 +85,37 @@ body {color:#000b2e}
 .about { margin-bottom: 0;}
 
 /*about*/
-.title {text-align: center;}
+.title {text-align: center;height: 25px;}
+.title>h3 { font-size: 20px;line-height: 25px;}
 
 .eunjin {margin:0 auto; width: 30%; padding-top: 50px;}
 .profile-t {height: auto; text-align: center;}
 .profile-t {padding-bottom: 50px;}
 
-.profile-text>h1 { font-size: 25px;}
-.sub-title {padding-top: 30px;}
+.profile-text>h1 { font-size: 18px;}
+.sub-title {padding-top: 30px; font-size: 13px;}
+.profile-text>h3 {font-size: 15px;}
+.profile-text>p {font-size: 12px;}
+.education{font-size: 15px;}
+.license h3 {font-size: 18px; }
+.education h3 {font-size: 18px; }
+.skill h3 {font-size: 18px;}
 
-.profile-b {text-align: center; height: auto;}
+
+.profile-b {text-align: center; height: auto; font-size: 13px;}
+.education {font-size: 13px;}
 .profile-b1 {padding-top: 50px;}
 .profile-b1 li {padding-bottom: 50px;}
-.skill1,.skill2 {width: 30%; margin:30px; padding-bottom: 30px;}
+.skill1,.skill2 {width: 20%; margin:30px; padding-bottom: 30px;}
 
 
 /*포트폴리오*/
-.anantihilton {font-size: 10px; padding:2rem 0 }
-.projectimg {font-size: 10px; padding:2rem 0}
+.anantihilton {font-size: 15px; padding:2rem 0 }
+.projectimg {font-size: 15px; padding:2rem 0}
 .mokup {text-align: center;}
 .imac {width: 50%;}
 .iphone {width: 30%; padding-left: 50px;}
+
 
 /*contact*/
 #contact {height: auto; text-align: center;}
@@ -279,13 +292,9 @@ h2, .h2 {
   }
 }
 
-h3, .h3 {
-  font-size: calc(1.3rem + 0.6vw);
 }
 @media (min-width: 1200px) {
-  h3, .h3 {
-    font-size: 1.75rem;
-  }
+
 }
 
 h4, .h4 {
