@@ -35,6 +35,7 @@ body {color:#000b2e}
 
  /*PC*/
  @media all and (min-width:1200px) {
+  header.home {width: 100%;}
    #home>div {padding-top: 80px;}
   .main_text {font-size: 28px;}
   .main_title {font-size: 53px; font-weight: bold;}
@@ -79,7 +80,8 @@ body {color:#000b2e}
 @media all and (min-width:321px) and (max-width:1199px){
 /*메인*/
 #home {height: auto; padding-top: 200px;}
-.main {padding-bottom: 160px;}
+header.home {width: 100%;}
+.main {padding-bottom: 0px;}
 .main_text {font-size: 18px;}
 .logo {width: 40%;}
 .about { margin-bottom: 0;}
@@ -134,7 +136,7 @@ body {color:#000b2e}
  /*모바일*/
  @media all and (max-width:320px) {
 /*메인*/
-
+header.home {width: 100%;}
 #home {height: auto; padding-top: 170px;left:50%}
 .main {padding-bottom: 80px;}
 .main_text {font-size: 15px;}
@@ -11531,8 +11533,8 @@ hr.divider-light {
 
 header.home {
   padding-top: 30px;
-  padding-bottom: calc(10rem - 4.5rem);
-  background :url(../assets/main.jpg);
+  background-image: url(../assets/main.jpg);
+  width:100%;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
