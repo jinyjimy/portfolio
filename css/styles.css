@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/**!
+/*!
 * Start Bootstrap - Creative v7.0.4 (https://startbootstrap.com/theme/creative)
 * Copyright 2013-2021 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
@@ -11,89 +11,168 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
- /*은진*/
 
-/*공통*/
-.profile-text p:nth-child(1) {padding-bottom: 5rem;}
 
-/*모바일*/
-@media (max-width: 992px) {
-.profile-text {width: 100%; text-align:center}
-.profile-img {width: 100%;}
-.logo img {width:50%}
-.bg-menu {width: 100%;height: 30px;background-color: #ffc32f; line-height: 30px;
-  font-size: 15px ; text-align: center;}
-  .aboutme {font-size: 1.2rem;text-align: center; font-weight: bold;}
-  .profile-img img:nth-child(1) {padding-bottom: 7rem;}
-  .profile-text {padding-bottom: 6rem;}
-  .bigbee {width:50%;;}
-  .skill {width: 80%;}
-  .ananti {font-size: 15px;text-align:center;padding: 3rem 2rem;}
-  .portfolio {font-size: 15px;text-align: center; padding:3rem 2rem }
-  .mokup {padding-bottom: 3rem; }
-.mokup img:nth-child(1) {padding-bottom: 3rem;}
+
+ /* 은진 */
+
+
+
+ /*공통*/
+ #home {font-family:"Noto Sans"; color:#fff}
+body {color:#000b2e}
+.title {font-size: 30px; background: #ffc32f;}
+.anantihilton {text-align: right;}
+.projectimg {text-align: right;}
+#footer {width: 100%;background-color: #0c132d;}
+.profile-background {background-color:#000b2e ;color:#fff}
+.roboto {font-family: 'Roboto', sans-serif; letter-spacing: 4px;}
+.orange {color:#ef4a35}
+* {list-style: none;}
+.footerlogoimg {width: 10%; padding-top: 20px;}
+
+
+
+ /*PC*/
+ @media all and (min-width:1200px) {
+   #home>div {padding-top: 80px;}
+  .main_text {font-size: 28px;}
+  .main_title {font-size: 53px; font-weight: bold;}
+   .title {height: 50px;}
+   .title h3 {line-height: 50px; }
+  .mokup {text-align: center;}
+  .imac {padding-right: 80px;}
+  .anantihilton {padding: 3rem 3rem}
+  .projectimg {padding: 3rem 3rem}
+  .workimg {padding-bottom: 100px;}
+  .logo {width: 70%;}
+  .eunjin {padding:80px 200px}
+  .profile-t {height: 480px;}
+  .profile-text {float:right; padding-right: 250px; padding-top: 80px;}
+  .profile-text>h1 {letter-spacing: 3px;}
+  .sub-title {letter-spacing: 3px;}
+  .profile-b {padding-top: 80px;height: 800px; color:#0c132d}
+  .profile-b1 {height: 300px;}
+  .profile-b1 li {float:left; width: 50%;}
+  .education {padding-left: 200px;}
+  .license {padding-left: 138px;}
+  .skill {padding-left: 200px;}
+  .skill1 {padding-right: 330px;}
+  /*contact*/
+
+
+ 
+
+  
+   /*contact*/
+ .copyright {line-height: 100px;}
+ #contact {text-align: center;height: 280px;}
+ .mail,.kakao {width: 25px;margin-left: 10px;;}
+  #footer {height: 100px; color:#fff}
+ 
+ }
+ 
+/*태블릿,노트북*/
+@media all and (min-width:321px) and (max-width:1199px){
+/*메인*/
+#home {height: auto; padding-top: 200px;}
+.main {padding-bottom: 160px;}
+.main_text {font-size: 18px;}
+.logo {width: 40%;}
+.about { margin-bottom: 0;}
+
+/*about*/
+.title {text-align: center;}
+
+.eunjin {margin:0 auto; width: 30%; padding-top: 50px;}
+.profile-t {height: auto; text-align: center;}
+.profile-t {padding-bottom: 50px;}
+
+.profile-text>h1 { font-size: 25px;}
+.sub-title {padding-top: 30px;}
+
+.profile-b {text-align: center; height: auto;}
+.profile-b1 {padding-top: 50px;}
+.profile-b1 li {padding-bottom: 50px;}
+.skill1,.skill2 {width: 30%; margin:30px; padding-bottom: 30px;}
+
+
+/*포트폴리오*/
+.anantihilton {font-size: 10px; padding:2rem 0 }
+.projectimg {font-size: 10px; padding:2rem 0}
+.mokup {text-align: center;}
+.imac {width: 50%;}
+.iphone {width: 30%; padding-left: 50px;}
 
 /*contact*/
-#contact {text-align: center; height: 150px;}
-.contact {padding-top: 1rem;}
-.mail {width: 5%;}
-.kakao {width: 5%;}
+#contact {height: auto; text-align: center;}
+.footerlogo {font-weight: bold; padding-bottom: 20px;}
+.footerlogo img {width: 10%;}
+.mail {width: 4%;}
+.kakao {width: 4%;}
 
 /*footer*/
-#footer { background-color: #ebebeb; height: 30px;}
-.copyright {text-align: center; line-height: 30px; font-size: 0.5rem; }
-
+#footer {height: 80px; color:#fff;}
+.copyright {font-weight: lighter; line-height: 80px; font-size: 10px;}
+ }
 
 }
 
-/*pc*/
-@media (min-width: 992px)
-{
-  .profile-text {width: 50%; float:left; }
-  .profile-img {width: 50%; float:right}
-   /*bg menu*/
-.bg-menu {width: 100%;height: 50px;background-color: #ffc32f; line-height: 50px;
-  font-size: 25px}
+ /*모바일*/
+ @media all and (max-width:320px) {
+/*메인*/
 
-   /*about*/
-   #about {height: 1020px;}
-   .aboutme {font-size: 1.5rem;text-align: center; padding-bottom:10rem}
-   .profile-img img:nth-child(1) {padding-bottom: 6rem;}
+#home {height: auto; padding-top: 170px;}
+.main {padding-bottom: 80px;}
+.main_text {font-size: 15px;}
+.logo {width: 10%;}
 
-/*project*/
-.ananti {font-size: 15px;text-align: right;padding: 3rem 2rem;}
-.mokup {padding-bottom: 3rem;}
-.mokup img:nth-child(1) {padding-right: 18rem;}
-.portfolio {font-size: 15px;text-align: right; padding:3rem 2rem }
-}
+/*about*/
+.title {text-align: center;}
+#profile {text-align: center;}
+#about>.title>h3 {text-align: center;margin:0}
+.eunjin {margin:0 auto; width: 50%; padding-top: 50px;}
+.profile-t {height: 600px; text-align: center;}
+.profile-text>h1 { font-size: 25px;}
+.sub-title {padding-top: 30px;}
+
+.profile-b {text-align: center; height: 900px;}
+.profile-b1 {padding-top: 50px;}
+.profile-b1 li {padding-bottom: 50px;}
+.skill1,.skill2 {width: 30%; margin:30px}
+
+
+/*포트폴리오*/
+.anantihilton {font-size: 10px; padding:2rem 0 }
+.projectimg {font-size: 10px; padding:2rem 0}
+.mokup {text-align: center;}
+.imac {width: 50%;}
+.iphone {width: 30%; padding-left: 50px;}
 
 /*contact*/
-#contact {text-align: center;}
-#contact h3 {font-size: 1rem;}
-#contact p {font-size: 0.5rem;}
-.footerbee {width: 8%;}
-
+#contact {height: 200px; text-align: center;}
+.footerlogo {font-weight: bold; padding-bottom: 20px;}
+.footerlogoimg {padding-right: 20px;}
+.footerlogo img {width: 20%;}
+.mail {width: 10%;}
+.kakao {width: 10%;}
 
 /*footer*/
-#footer { background-color: #ebebeb; height: 80px;}
-.copyright {text-align: center; line-height: 80px; }
+#footer {height: 80px; color:#fff;}
+.copyright {font-weight: lighter; line-height: 80px; font-size: 10px;}
+ }
+
+}
 
 
-
-
-
-
-
-
-
-
+ 
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
-  --bs-orange: #ef4a35;
+  --bs-orange: #f4623a;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #20c997;
@@ -132,11 +211,11 @@
   --bs-font-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Noto Sans,
+  --bs-body-font-family:  Noto Sans, sans-serif, Arial, Noto Color Emoji;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #000b2e;
+  --bs-body-color: #212529;
   --bs-body-bg: #fff;
 }
 
@@ -179,10 +258,7 @@ hr:not([size]) {
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 500;
-  line-height: 1.2;
+  font-family: "Noto Sans", sans-serif, "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 h1, .h1 {
@@ -217,7 +293,7 @@ h4, .h4 {
 }
 @media (min-width: 1200px) {
   h4, .h4 {
-    font-size: 1.5rem;
+    font-size: 1.0rem;
   }
 }
 
@@ -229,10 +305,6 @@ h6, .h6 {
   font-size: 1rem;
 }
 
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
 
 abbr[title],
 abbr[data-bs-original-title] {
@@ -312,11 +384,11 @@ sup {
 }
 
 a {
-
+  color: #f4623a;
   text-decoration: underline;
 }
 a:hover {
-  color: #f4623a;
+  color: #c34e2e;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -331,25 +403,6 @@ samp {
   font-family: var(--bs-font-monospace);
   font-size: 1em;
   direction: ltr /* rtl:ignore */;
-  unicode-bidi: bidi-override;
-}
-
-pre {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  overflow: auto;
-  font-size: 0.875em;
-}
-pre code {
-  font-size: inherit;
-  color: inherit;
-  word-break: normal;
-}
-
-code {
-  font-size: 0.875em;
-  color: #d63384;
   unicode-bidi: bidi-override;
 }
 
@@ -3084,7 +3137,7 @@ textarea.form-control-lg {
 
 .btn {
   display: inline-block;
-  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Noto Sans", sans-serif, "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -5853,7 +5906,7 @@ textarea.form-control-lg {
   z-index: 1080;
   display: block;
   margin: 0;
-  font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family:  "Noto Sans", sans-serif,"Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5955,7 +6008,7 @@ textarea.form-control-lg {
   z-index: 1070;
   display: block;
   max-width: 276px;
-  font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family:  "Noto Sans", sans-serif,"Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue","Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -7892,7 +7945,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: #fff !important;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-secondary {
@@ -11382,7 +11435,7 @@ body {
 }
 
 .page-section {
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
 
 .text-white-75 {
@@ -11416,25 +11469,25 @@ hr.divider-light {
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
-  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Noto Sans", sans-serif,  "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   color: #212529;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #000b2e;
-  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #6c757d;
+  font-family:  "Noto Sans", sans-serif, "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   font-size: 0.9rem;
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #ef4a35;
+  color: #000b2e;
 }
 
 @media (min-width: 992px) {
   #mainNav {
     box-shadow: none;
-    background-color: transparent;
+    background-color: #fff
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -11443,7 +11496,7 @@ hr.divider-light {
     color: #fff;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-
+    color: #000b2e;
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -11452,64 +11505,59 @@ hr.divider-light {
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
   }
-  #mainNav.navbar-shrink {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fff;
-  }
+
   #mainNav.navbar-shrink .navbar-brand {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f4623a;
+    color: #ef4a35;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+   color:#fff
   }
 }
 
-header.masthead {
-  padding-top: 10rem;
+header.home {
+  padding-top: 30px;
   padding-bottom: calc(10rem - 4.5rem);
-  background:url("../assets/main.jpg");
+  background :url(../assets/main.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
-header.masthead h1, header.masthead .h1 {
+header.home h1, header.home .h1 {
   font-size: 2.25rem;
 }
 @media (min-width: 992px) {
-  header.masthead {
+  header.home {
     height: 100vh;
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
-  header.masthead p {
-    font-size: 1.15rem;
-  }
-  header.masthead h1, header.masthead .h1 {
+
+  header.home h1, header.home .h1 {
     font-size: 3rem;
   }
 }
 @media (min-width: 1200px) {
-  header.masthead h1, header.masthead .h1 {
+  header.home h1, header.home .h1 {
     font-size: 3.5rem;
   }
 }
 
-#project .container-fluid, #project .container-sm, #project .container-md, #project .container-lg, #project .container-xl, #project .container-xxl {
+#portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
   max-width: 1920px;
 }
-#project .container-fluid .project-box, #project .container-sm .project-box, #project .container-md .project-box, #project .container-lg .project-box, #project .container-xl .project-box, #project .container-xxl .project-box {
+#portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
   position: relative;
   display: block;
 }
-#project .container-fluid .project-box .project-box-caption, #project .container-sm .project-box .project-box-caption, #project .container-md .project-box .project-box-caption, #project .container-lg .project-box .project-box-caption, #project .container-xl .project-box .project-box-caption, #project .container-xxl .project-box .project-box-caption {
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11521,19 +11569,19 @@ header.masthead h1, header.masthead .h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(255, 195, 47, 0.8);
+  background: rgba(0, 11, 46, 0.8);
   transition: opacity 0.25s ease;
   text-align: center;
 }
-#about #project .container-fluid .project-box .project-box-caption .project-category, #project .container-sm .project-box .project-box-caption .project-category, #project .container-md .project-box .project-box-caption .project-category, #project .container-lg .project-box .project-box-caption .project-category, #project .container-xl .project-box .project-box-caption .project-category, #project .container-xxl .project-box .project-box-caption .project-category {
-  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
+  font-family:  "Noto Sans", sans-serif, "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
 }
-#project .container-fluid .project-box .project-box-caption .project-name, #project .container-sm .project-box .project-box-caption .project-name, #project .container-md .project-box .project-box-caption .project-name, #project .container-lg .project-box .project-box-caption .project-name, #project .container-xl .project-box .project-box-caption .project-name, #project .container-xxl .project-box .project-box-caption .project-name {
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
   font-size: 1.2rem;
 }
-#project .container-fluid .project-box:hover .project-box-caption, #project .container-sm .project-box:hover .project-box-caption, #project .container-md .project-box:hover .project-box-caption, #project .container-lg .project-box:hover .project-box-caption, #project .container-xl .project-box:hover .project-box-caption, #project .container-xxl .project-box:hover .project-box-caption {
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
