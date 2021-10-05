@@ -79,7 +79,7 @@ body {color:#000b2e}
 /*태블릿,노트북*/
 @media all and (min-width:321px) and (max-width:1199px){
 /*메인*/
-#home {height: auto; padding-top: 200px;}
+#home {height: 500px; padding-top: 150px;}
 header.home {width: 100%;}
 .main {padding-bottom: 0px;}
 .main_text {font-size: 18px;}
