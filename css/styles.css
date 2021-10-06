@@ -146,15 +146,16 @@ header.home {width: 100%;}
 
 
 /****************가로321~991까지 메인화면 시작*****************/
-@media all and (min-width:321px) and (max-width:991px){
+@media all and (min-width:437px) and (max-width:991px){
 /*메인*/
 #home {height: 500px; padding-top: 150px;}
-.main {width: 70%;}
+.main {width: 80%;}
 header.home {width: 100%;}
 .logo {width: 40%;}
+.main_text {padding-top: 50px;}
 .main_text>p {font-size: 15px;}
 .main_title {font-size: 30px;}
-.main_logo {width: 10%;padding-top: 25px;}
+.main_logo {width: 10%;padding-top: 20px;}
 
 /*about*/
 .title {text-align: center;height: 25px;}
@@ -178,7 +179,7 @@ header.home {width: 100%;}
 .education {font-size: 13px;}
 .profile-b1 {padding-top: 50px;}
 .profile-b1 li {padding-bottom: 50px;}
-.skill1,.skill2 {width: 20%; margin:30px; padding-bottom: 30px;}
+.skill1,.skill2 {width: 50%; margin:30px; padding-bottom: 30px;}
 
 
 /*포트폴리오*/
@@ -204,13 +205,14 @@ header.home {width: 100%;}
 
 
  /*모바일*/
- @media all and (max-width:320px) {
+ @media (min-width:320px) and (max-width:436px) {
 /*메인*/
 header.home {width: 100%;height:400px;}
 .logo {width: 30%;}
-.main_text>p {font-size: 10px;}
-.main_title {font-size: 15px;}
-.main_logo {width: 15%;padding-top: 20px;}
+.main_text {padding-top: 30px;}
+.main_text>p {font-size: 12px;}
+.main_title {font-size: 20px;}
+.main_logo {width: 10%;padding-top: 20px;}
 .worklike {padding-top: 30px;}
 
 /*about*/
@@ -218,7 +220,7 @@ header.home {width: 100%;height:400px;}
 #profile {text-align: center;}
 #about>.title>h3 {text-align: center;margin:0}
 .eunjin {margin:0 auto; width: 50%; padding-top: 30px;}
-.profile-t {height: 400px; text-align: center;}
+.profile-t {height: 450px; text-align: center;}
 .profile-text>h1 { font-size: 15px;}
 .sub-title {padding-top: 20px;}
 .profile-text h3 {font-size: 15px;}
