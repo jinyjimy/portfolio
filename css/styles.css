@@ -33,14 +33,12 @@
  body {color:#000b2e}
  * {list-style: none;}
 
-
+.portfolio_list:nth-child(2) li a img {border:2px solid #ffc32f; padding:20px}
  #home {font-family:"Noto Sans" "roboto"; color:#fff; position:relative}
  .main_text {position:absolute;
    z-index: 2;top:30%; left:20%;
 background-image: url(../assets/mainb.png);background-repeat: no-repeat;
 background-position: center center; width:65%; height: 65%;background-size: contain;}
-.mainb {position:absolute; top:20%; left:35%;
-   opacity: 70%;width: 30%;z-index: 1;}
 
 
 .title {background: #ffc32f;}
