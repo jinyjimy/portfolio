@@ -22,7 +22,7 @@
 .portfolio_list ul{display: flex; width: 100%;justify-content: space-between; padding-left: 0px; margin-left: 0px;}
 .portfolio_list ul li{ padding: 1px;}
 .portfolio_list ul li img{width: 100%}
-.portfolio_main_img_box{max-width: 1280px; margin: 0 auto; width: 100%; cursor: pointer; margin-bottom: 50px;}
+.portfolio_main_img_box{max-width: 1280px; margin: 0 auto; width: 50%; cursor: pointer; margin-bottom: 50px;}
 
 .portfolio_list a:hover{cursor: pointer;}
 .mtb-70-100{ margin-top: 70px; margin-bottom: 100px;}
@@ -77,8 +77,8 @@ background-position: center center; width:65%; height: 65%;background-size: cont
    .education h3 {font-size: 25px; }
    .skill {padding-left: 200px;text-align: left;}
    .skill h3 {font-size: 25px; }
-   .skill1 {padding-right: 330px;}
-
+   .skill1  {width: 20%; margin-right: 360px;}
+   .skill2 {width: 20%;}
    /*portfoilo*/
   .mokup {text-align: center;}
   .imac {padding-right: 80px;}
@@ -190,7 +190,7 @@ header.home {width: 100%;}
 .education {font-size: 13px;}
 .profile-b1 {padding-top: 50px;}
 .profile-b1 li {padding-bottom: 10px;}
-.skill1,.skill2 {width: 40%; margin:20px; padding-bottom: 20px;}
+.skill1,.skill2 {width: 20%; margin:20px; padding-bottom: 20px;}
 
 
 /*포트폴리오*/
