@@ -49,6 +49,7 @@ background-position: center center; width:65%; height: 65%;background-size: cont
 .roboto {font-family:  "Noto Sans", sans-serif,"Segoe UI", Roboto,'Roboto', 'sans-serif'; letter-spacing: 4px;}
 .orange {color:#ef4a35}
 .footerlogoimg {width: 10%; padding-top: 20px;}
+.footerlogo img {width: 8%;}
 
 
  /********************PC*************/
