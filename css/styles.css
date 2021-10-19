@@ -17,7 +17,6 @@
  /* 은진 */
 
 /*포트폴리오 탭 부분*/
-.main_portfolio{}
 .portfolio_list{width: 100%;}
 .portfolio_list ul{display: flex; width: 100%;justify-content: space-between; padding-left: 0px; margin-left: 0px;}
 .portfolio_list ul li{ padding: 1px;}
@@ -33,7 +32,7 @@
  body {color:#000b2e}
  * {list-style: none;}
 
-.portfolio_list:nth-child(2) li a img {border:3px solid #ffc32f; padding:20px}
+.portfolio_list:nth-child(2) li a img {border:2px solid #ffc32f; padding:20px}
  #home {font-family:"Noto Sans" "roboto"; color:#fff; position:relative}
  .main_text {position:absolute;
    z-index: 2;top:30%; left:20%;
@@ -51,6 +50,59 @@ background-position: center center; width:65%; height: 65%;background-size: cont
 .footerlogoimg {width: 10%; padding-top: 20px;}
 .footerlogo img {width: 8%;}
 
+
+
+.skill1-1 {width: 50%;  float: left;}
+.skill1-2 {width: 50%; float: left;}
+/*skill 움직이는 부분*/
+.photoshop {height: 20px; width: 247px; background-color: #eee;}
+.photoshop span {display: block; height: 20px;line-height: 20px; text-align: right; width: 95%;
+background-color:#ef4a35 ;color:#fff; animation: photoshop 1s 1;}
+
+.Illustrator {height: 20px; width: 247px; background-color: #eee;}
+.Illustrator span {display: block; height: 20px;line-height: 20px; text-align: right; width: 90%;
+background-color:#ef4a35 ;color:#fff; animation: Illustrator 1s 1;}
+
+.html {height: 20px;width: 247px;background-color: #eee;}
+.html span {display: block; height: 20px;line-height: 20px; text-align: right; width: 85%;
+background-color: #ef4a35 ;color:#fff; animation: HTML 1s 1;;}
+
+.css {height: 20px;width: 247px;background-color: #eee;}
+.css span {display: block; height: 20px;line-height: 20px; text-align: right; width: 80%;
+background-color: #ef4a35 ;color:#fff; animation: CSS 1s 1;;}
+
+.js {height: 20px;width: 247px;background-color: #eee;}
+.js span {display: block; height: 20px;line-height: 20px; text-align: right; width: 60%;
+background-color: #ef4a35 ;color:#fff; animation: JS 1s 1;;}
+
+.sns {height: 20px;width: 247px;background-color: #eee;}
+.sns span {display: block; height: 20px;line-height: 20px; text-align: right; width: 99%;
+background-color: #ef4a35 ;color:#fff; animation: SNS 1s 1;;}
+
+@keyframes photoshop {
+  0% {width: 0%;}
+  100% {width: 95%;}
+}
+@keyframes Illustrator {
+  0% {width: 0%;}
+  100% {width: 90%;}
+}
+@keyframes HTML {
+  0% {width: 0%;}
+  100% {width: 85%;}
+}
+@keyframes CSS {
+  0% {width: 0%;}
+  100% {width: 80%;}
+}
+@keyframes JS {
+  0% {width: 0%;}
+  100% {width: 60%;}
+}
+@keyframes SNS {
+  0% {width: 0%;}
+  100% {width: 99%;}
+}
 
  /********************PC*************/
  @media all and  (min-width:1200px) and (max-width:2000px) {
@@ -72,14 +124,13 @@ background-position: center center; width:65%; height: 65%;background-size: cont
    .profile-b {padding-top: 80px;height: 800px; color:#0c132d}
    .profile-b1 {height: 300px;}
    .profile-b1 li {float:left; width: 50%;}
-   .education {padding-left: 200px;}
-   .license {padding-left: 138px;}
+   .education {width: 50%; padding-left: 200px;}
+   .license {width: 50%;padding-left: 100px;}
    .license h3 {font-size: 25px; }
-   .education h3 {font-size: 25px; }
-   .skill {padding-left: 200px;text-align: left;}
+   .education h3 {font-size: 25px;}
    .skill h3 {font-size: 25px; }
-   .skill1  {width: 20%; margin-right: 360px;}
-   .skill2 {width: 20%;}
+   .skill {padding-left: 200px;}
+  
    /*portfoilo*/
   .mokup {text-align: center;}
   .imac {padding-right: 80px;}
@@ -126,14 +177,17 @@ header.home {width: 100%;}
 .license h3 {font-size: 18px; }
 .education h3 {font-size: 18px; }
 .skill h3 {font-size: 18px;}
-
+.skill {margin-bottom: 200px;}
+.skill1-1 {padding-left: 100px;}
+.skill1-2 {padding-left: 100px;}
 
 .profile-b {text-align: center; height: auto; font-size: 13px;}
 .education {font-size: 13px;}
 .profile-b1 {padding-top: 50px;}
 .profile-b1 li {padding-bottom: 50px;}
-.skill1,.skill2 {width: 20%; margin:30px; padding-bottom: 30px;}
-
+.skill {padding-bottom: 100px;}
+.skill p {text-align: left;}
+.skill-1 {padding-left: 100px;}
 
 /*포트폴리오*/
 .anantihilton {font-size: 15px; padding:2rem 0 }
@@ -185,13 +239,14 @@ header.home {width: 100%;}
 .license h3 {font-size: 18px; }
 .education h3 {font-size: 18px; }
 .skill h3 {font-size: 18px;}
-
-
 .profile-b {text-align: center; height: auto; font-size: 13px;}
 .education {font-size: 13px;}
 .profile-b1 {padding-top: 50px;}
 .profile-b1 li {padding-bottom: 10px;}
-.skill1,.skill2 {width: 20%; margin:20px; padding-bottom: 20px;}
+.skill {margin-bottom: 300px;}
+.skill1-1 {padding-left: 80px;}
+.skill1-2 {padding-left: 80px;}
+
 
 
 /*포트폴리오*/
@@ -215,7 +270,12 @@ header.home {width: 100%;}
  }
 
 
-
+/*767*/
+@media (max-width: 767.98px) {
+  .skill {margin-bottom: 300px;}
+.skill1-1 {padding-left: 0px;}
+.skill1-2 {padding-left: 50px;}
+}
  /*모바일*/
  @media (min-width:320px) and (max-width:436px) {
 /*메인*/
@@ -241,13 +301,12 @@ header.home {width: 100%;height:400px;}
 .profile-b {text-align: center; height: 750px;}
 .profile-b1 {padding-top: 50px;}
 .profile-b1 li {padding-bottom: 10px;}
-.skill1,.skill2 {width: 30%; margin:20px}
 .education {font-size: 15px;}
 .p-subtitle {font-size: 12px;}
 .p-sub {font-size: 10px;}
 .license {font-size: 15px;}
 .skill {font-size: 15px;}
-.skill1,.skill2 {width: 40%;}
+
 
 
 /*포트폴리오*/
@@ -265,7 +324,6 @@ header.home {width: 100%;height:400px;}
 .footerlogo img {width: 15%;}
 .mail {width: 5%;}
 .kakao {width: 5%;}
-
 /*footer*/
 #footer {height: 60px; color:#fff;}
 .copyright {font-weight: lighter; line-height: 60px; font-size: 10px;}
