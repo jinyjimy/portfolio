@@ -219,27 +219,27 @@ header.home {width: 100%;}
 
   .photoshop {height: 15px; width: 150px; background-color: #eee;}
   .photoshop span {display: block; height: 15px;line-height: 15px; text-align: right; width: 95%;
-  background-color:#ef4a35 ;color:#fff; animation: photoshop 1s 1;}
+  background-color:#ef4a35 ;color:#fff; animation: photoshop 3s 5;}
   
   .Illustrator {height: 15px; width: 150px; background-color: #eee;}
   .Illustrator span {display: block; height: 15px;line-height: 15px; text-align: right; width: 90%;
-  background-color:#ef4a35 ;color:#fff; animation: Illustrator 1s 1;}
+  background-color:#ef4a35 ;color:#fff; animation: Illustrator 3s 5}
   
   .html {height: 15px;width: 150px;background-color: #eee;}
   .html span {display: block; height: 15px;line-height: 15px; text-align: right; width: 85%;
-  background-color: #ef4a35 ;color:#fff; animation: HTML 1s 1;;}
+  background-color: #ef4a35 ;color:#fff; animation: HTML 3s 5;}
   
   .css {height: 15px;width: 150px;background-color: #eee;}
   .css span {display: block; height: 15px;line-height: 15px; text-align: right; width: 80%;
-  background-color: #ef4a35 ;color:#fff; animation: CSS 1s 1;;}
+  background-color: #ef4a35 ;color:#fff; animation: CSS 3s 5;;}
   
   .js {height: 15px;width: 150px;background-color: #eee;}
   .js span {display: block; height: 15px;line-height: 15px; text-align: right; width: 60%;
-  background-color: #ef4a35 ;color:#fff; animation: JS 1s 1;;}
+  background-color: #ef4a35 ;color:#fff; animation: JS 3s 5;;}
   
   .sns {height: 15px;width: 150px;background-color: #eee;}
   .sns span {display: block; height: 15px;line-height: 15px; text-align: right; width: 99%;
-  background-color: #ef4a35 ;color:#fff; animation: SNS 1s 1;;}
+  background-color: #ef4a35 ;color:#fff; animation: SNS 3s 5;;}
 
 
 
