@@ -36,7 +36,7 @@
  #home {font-family:"Noto Sans" "roboto"; color:#fff; position:relative}
  .main_text {position:absolute;
    z-index: 2;top:30%; left:20%;
-background-image: url(../assets/mainb.png);background-repeat: no-repeat;
+background-image: url(../assets/img/mainb.png);background-repeat: no-repeat;
 background-position: center center; width:65%; height: 65%;background-size: contain;}
 
 
@@ -57,27 +57,27 @@ background-position: center center; width:65%; height: 65%;background-size: cont
 /*skill 움직이는 부분*/
 .photoshop {height: 20px; width: 247px; background-color: #eee;}
 .photoshop span {display: block; height: 20px;line-height: 20px; text-align: right; width: 95%;
-background-color:#ef4a35 ;color:#fff; animation: photoshop 1s 1;}
+background-color:#ef4a35 ;color:#fff; animation: photoshop 3s 5;}
 
 .Illustrator {height: 20px; width: 247px; background-color: #eee;}
 .Illustrator span {display: block; height: 20px;line-height: 20px; text-align: right; width: 90%;
-background-color:#ef4a35 ;color:#fff; animation: Illustrator 1s 1;}
+background-color:#ef4a35 ;color:#fff; animation: Illustrator 3s 5;}
 
 .html {height: 20px;width: 247px;background-color: #eee;}
 .html span {display: block; height: 20px;line-height: 20px; text-align: right; width: 85%;
-background-color: #ef4a35 ;color:#fff; animation: HTML 1s 1;;}
+background-color: #ef4a35 ;color:#fff; animation: HTML 3s 5;;}
 
 .css {height: 20px;width: 247px;background-color: #eee;}
 .css span {display: block; height: 20px;line-height: 20px; text-align: right; width: 80%;
-background-color: #ef4a35 ;color:#fff; animation: CSS 1s 1;;}
+background-color: #ef4a35 ;color:#fff; animation: CSS 3s 5;;}
 
 .js {height: 20px;width: 247px;background-color: #eee;}
 .js span {display: block; height: 20px;line-height: 20px; text-align: right; width: 60%;
-background-color: #ef4a35 ;color:#fff; animation: JS 1s 1;;}
+background-color: #ef4a35 ;color:#fff; animation: JS 3s 5;;}
 
 .sns {height: 20px;width: 247px;background-color: #eee;}
 .sns span {display: block; height: 20px;line-height: 20px; text-align: right; width: 99%;
-background-color: #ef4a35 ;color:#fff; animation: SNS 1s 1;;}
+background-color: #ef4a35 ;color:#fff; animation: SNS 3s 5;;}
 
 @keyframes photoshop {
   0% {width: 0%;}
@@ -11746,7 +11746,7 @@ hr.divider-light {
 
 header.home {
   padding-top: 30px;
-  background-image: url(../assets/main.jpg);
+  background-image: url(../assets//img/main.jpg);
   width:100%;
   background-position: center;
   background-repeat: no-repeat;
