@@ -57,27 +57,27 @@ background-position: center center; width:65%; height: 65%;background-size: cont
 /*skill 움직이는 부분*/
 .photoshop {height: 20px; width: 247px; background-color: #eee;}
 .photoshop span {display: block; height: 20px;line-height: 20px; text-align: right; width: 95%;
-background-color:#ef4a35 ;color:#fff; animation: photoshop 3s 5;}
+background-color:#ef4a35 ;color:#fff; animation: photoshop 3s 1 ;animation-delay: 3s;}
 
 .Illustrator {height: 20px; width: 247px; background-color: #eee;}
 .Illustrator span {display: block; height: 20px;line-height: 20px; text-align: right; width: 90%;
-background-color:#ef4a35 ;color:#fff; animation: Illustrator 3s 5;}
+background-color:#ef4a35 ;color:#fff; animation: Illustrator 3s 1 ;animation-delay: 3s;}
 
 .html {height: 20px;width: 247px;background-color: #eee;}
 .html span {display: block; height: 20px;line-height: 20px; text-align: right; width: 85%;
-background-color: #ef4a35 ;color:#fff; animation: HTML 3s 5;;}
+background-color: #ef4a35 ;color:#fff; animation: HTML 3s 1 ;animation-delay: 3s;}
 
 .css {height: 20px;width: 247px;background-color: #eee;}
 .css span {display: block; height: 20px;line-height: 20px; text-align: right; width: 80%;
-background-color: #ef4a35 ;color:#fff; animation: CSS 3s 5;;}
+background-color: #ef4a35 ;color:#fff; animation: CSS 3s 1 ;animation-delay: 3s;}
 
 .js {height: 20px;width: 247px;background-color: #eee;}
 .js span {display: block; height: 20px;line-height: 20px; text-align: right; width: 60%;
-background-color: #ef4a35 ;color:#fff; animation: JS 3s 5;;}
+background-color: #ef4a35 ;color:#fff; animation: JS 3s 1 ;animation-delay: 3s;}
 
 .sns {height: 20px;width: 247px;background-color: #eee;}
 .sns span {display: block; height: 20px;line-height: 20px; text-align: right; width: 99%;
-background-color: #ef4a35 ;color:#fff; animation: SNS 3s 5;;}
+background-color: #ef4a35 ;color:#fff; animation: SNS 3s 1 ;animation-delay: 3s;}
 
 @keyframes photoshop {
   0% {width: 0%;}
@@ -219,27 +219,27 @@ header.home {width: 100%;}
 
   .photoshop {height: 15px; width: 150px; background-color: #eee;}
   .photoshop span {display: block; height: 15px;line-height: 15px; text-align: right; width: 95%;
-  background-color:#ef4a35 ;color:#fff; animation: photoshop 3s 5;}
+  background-color:#ef4a35 ;color:#fff; animation: photoshop 3s 1 ;animation-delay: 3s;}
   
   .Illustrator {height: 15px; width: 150px; background-color: #eee;}
   .Illustrator span {display: block; height: 15px;line-height: 15px; text-align: right; width: 90%;
-  background-color:#ef4a35 ;color:#fff; animation: Illustrator 3s 5}
+  background-color:#ef4a35 ;color:#fff; animation: Illustrator 3s 1 ;animation-delay: 3s;}
   
   .html {height: 15px;width: 150px;background-color: #eee;}
   .html span {display: block; height: 15px;line-height: 15px; text-align: right; width: 85%;
-  background-color: #ef4a35 ;color:#fff; animation: HTML 3s 5;}
+  background-color: #ef4a35 ;color:#fff; animation: HTML 3s 1 ;animation-delay: 3s;}
   
   .css {height: 15px;width: 150px;background-color: #eee;}
   .css span {display: block; height: 15px;line-height: 15px; text-align: right; width: 80%;
-  background-color: #ef4a35 ;color:#fff; animation: CSS 3s 5;;}
+  background-color: #ef4a35 ;color:#fff; animation: CSS 3s 1 ;animation-delay: 3s;}
   
   .js {height: 15px;width: 150px;background-color: #eee;}
   .js span {display: block; height: 15px;line-height: 15px; text-align: right; width: 60%;
-  background-color: #ef4a35 ;color:#fff; animation: JS 3s 5;;}
+  background-color: #ef4a35 ;color:#fff; animation: JS 3s 1 ;animation-delay: 3s;}
   
   .sns {height: 15px;width: 150px;background-color: #eee;}
   .sns span {display: block; height: 15px;line-height: 15px; text-align: right; width: 99%;
-  background-color: #ef4a35 ;color:#fff; animation: SNS 3s 5;;}
+  background-color: #ef4a35 ;color:#fff; animation: SNS 3s 1 ;animation-delay: 3s;}
 
 
 
@@ -315,27 +315,27 @@ header.home {width: 100%;}
   /*skill움직이는 부분 수정 */
   .photoshop {height: 15px; width: 150px; background-color: #eee;}
   .photoshop span {display: block; height: 15px;line-height: 15px; text-align: right; width: 95%;
-  background-color:#ef4a35 ;color:#fff; animation: photoshop 3s 5;}
+  background-color:#ef4a35 ;color:#fff; animation: photoshop 3s 1 ;animation-delay: 3s;}
   
   .Illustrator {height: 15px; width: 150px; background-color: #eee;}
   .Illustrator span {display: block; height: 15px;line-height: 15px; text-align: right; width: 90%;
-  background-color:#ef4a35 ;color:#fff; animation: Illustrator 3s 5;}
+  background-color:#ef4a35 ;color:#fff; animation: Illustrator 3s 1 ;animation-delay: 3s;}
   
   .html {height: 15px;width: 150px;background-color: #eee;}
   .html span {display: block; height: 15px;line-height: 15px; text-align: right; width: 85%;
-  background-color: #ef4a35 ;color:#fff; animation: HTML 3s 5;;}
+  background-color: #ef4a35 ;color:#fff; animation: HTML 3s 1 ;animation-delay: 3s;}
   
   .css {height: 15px;width: 150px;background-color: #eee;}
   .css span {display: block; height: 15px;line-height: 15px; text-align: right; width: 80%;
-  background-color: #ef4a35 ;color:#fff; animation: CSS 3s 5;;}
+  background-color: #ef4a35 ;color:#fff; animation: CSS 3s 1 ;animation-delay: 3s;}
   
   .js {height: 15px;width: 150px;background-color: #eee;}
   .js span {display: block; height: 15px;line-height: 15px; text-align: right; width: 60%;
-  background-color: #ef4a35 ;color:#fff; animation: JS 3s 5;;}
+  background-color: #ef4a35 ;color:#fff; animation: JS 3s 1 ;animation-delay: 3s;}
   
   .sns {height: 15px;width: 150px;background-color: #eee;}
   .sns span {display: block; height: 15px;line-height: 15px; text-align: right; width: 99%;
-  background-color: #ef4a35 ;color:#fff; animation: SNS 3s 5;;}
+  background-color: #ef4a35 ;color:#fff; animation: SNS 3s 1 ;animation-delay: 3s;}
 
 
 /*메인*/
