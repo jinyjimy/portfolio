@@ -104,6 +104,47 @@ background-color: #ef4a35 ;color:#fff; animation: SNS 3s 1 ;animation-delay: 3s;
   100% {width: 99%;}
 }
 
+
+/*컨셉페이지 , 웹 버튼*/
+
+
+
+.btn-box {margin:0 auto; width:350px; height: 50px; padding-top: 50px;}
+.top-btn {width: 100px; margin:0 auto; height: 50px; padding-bottom: 50px;}
+.btn-t {
+  width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ffc32d;
+    color: #fff;
+    float: left;
+    text-decoration: none;
+}
+.btn1 {
+  width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ffc32d;
+    color: #fff;
+    float: left;
+    text-decoration: none;
+}
+.btn2 {
+  width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ffc32d;
+    color: #fff;
+    float: left;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+
+
  /********************PC*************/
  @media all and  (min-width:1200px) and (max-width:2000px) {
    /**헤더,메인**/
@@ -210,7 +251,6 @@ header.home {width: 100%;}
 }
 /****************가로992~1199까지 메인화면 끝*****************/
 
-
 /****************가로321~991까지 메인화면 시작*****************/
 @media all and (min-width:437px) and (max-width:991px){
 
@@ -301,7 +341,43 @@ header.home {width: 100%;}
 .copyright {font-weight: lighter; line-height: 80px; font-size: 10px;}
  }
 
+/*575이하 버튼부분*/
+ @media (max-width: 575.98px) {
+  .btn-box {margin:0 auto; width:250px; height: 50px; padding-top: 50px;}
+.top-btn {width: 100px; margin:0 auto; height: 50px; padding-bottom: 50px;}
+.btn-t {
+  width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ffc32d;
+    color: #fff;
+    float: left;
+    text-decoration: none;
+}
+.btn1 {
+  width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ffc32d;
+    color: #fff;
+    float: left;
+    text-decoration: none;
+}
+.btn2 {
+  width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ffc32d;
+    color: #fff;
+    float: left;
+    text-decoration: none;
+    margin-left: 30px;
+}
 
+}
 /*767*/
 @media (max-width: 767.98px) {
   .skill {margin-bottom: 300px;}
