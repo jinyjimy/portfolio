@@ -19,7 +19,7 @@
 /*포트폴리오 탭 부분*/
 .portfolio_list{width: 100%;}
 .portfolio_list ul{display: flex; width: 100%;justify-content: space-between; padding-left: 0px; margin-left: 0px;}
-.portfolio_list ul li{ padding: 1px;}
+.portfolio_list ul li{ padding: 5px;}
 .portfolio_list ul li img{width: 100%}
 .portfolio_main_img_box{max-width: 1280px; margin: 0 auto; width: 50%; cursor: pointer; margin-bottom: 50px;}
 
@@ -32,14 +32,16 @@
  body {color:#000b2e}
  * {list-style: none;}
 
-.portfolio_list:nth-child(2) li a img {border:2px solid #ffc32f; padding:20px}
+.portfolio_list ul li a img {border:3px solid #ffc32f; padding:20px}
  #home {font-family:"Noto Sans" "roboto"; color:#fff; position:relative}
  .main_text {position:absolute;
    z-index: 2;top:30%; left:20%;
 background-image: url(../assets/img/mainb.png);background-repeat: no-repeat;
 background-position: center center; width:65%; height: 65%;background-size: contain;}
 
-
+#main_video {width : 60%;height : auto;margin : 0 auto;padding : 0px;border : none;
+}
+.mainvideo {width: 100%; padding-top: 50px; text-align: center;}
 .title {background: #ffc32f;}
 .anantihilton {text-align: right;}
 .projectimg {text-align: right;}
