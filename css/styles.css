@@ -32,7 +32,7 @@
  body {color:#000b2e}
  * {list-style: none;}
 
-.portfolio_list ul li a img {border:3px solid #ffc32f; padding:20px}
+.portfolio_list ul li a img {border:2px solid #ffc32f; padding:10px}
  #home {font-family:"Noto Sans" "roboto"; color:#fff; position:relative}
  .main_text {position:absolute;
    z-index: 2;top:30%; left:20%;
@@ -45,6 +45,7 @@ background-position: center center; width:65%; height: 65%;background-size: cont
 .title {background: #ffc32f;}
 .anantihilton {text-align: right;}
 .projectimg {text-align: right;}
+.p-title {text-align: center;padding-top: 150px;}
 #footer {width: 100%;background-color: #0c132d;}
 .profile-background {background-color:#000b2e ;color:#fff}
 .roboto {font-family:  "Noto Sans", sans-serif,"Segoe UI", Roboto,'Roboto', 'sans-serif'; letter-spacing: 4px;}
@@ -329,6 +330,8 @@ header.home {width: 100%;}
 .mokup {text-align: center;}
 .imac {width: 50%;}
 .iphone {width: 30%; padding-left: 50px;}
+
+
 
 
 /*contact*/
@@ -6435,29 +6438,49 @@ textarea.form-control-lg {
 
 .carousel {
   position: relative;
+  margin-bottom: 0;
+	padding: 0 10px 30px 10px;
 }
-
+.carousel-control {
+	left: -12px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+/* Changes the position of the indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.carousel-indicators li {
+	background: #c0c0c0;
+}
+.carousel-indicators .active {
+background: #333333;
+}
 .carousel.pointer-event {
   touch-action: pan-y;
 }
 
 .carousel-inner {
   position: relative;
-  width: 100%;
+  width: 50%;
   overflow: hidden;
+  margin: 0 auto
 }
 .carousel-inner::after {
   display: block;
   clear: both;
   content: "";
 }
-
 .carousel-item {
   position: relative;
   display: none;
   float: left;
   width: 100%;
-  margin-right: -100%;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;

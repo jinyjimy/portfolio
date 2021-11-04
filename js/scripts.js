@@ -22,7 +22,11 @@ window.addEventListener('DOMContentLoaded', event => {
         }
 
     };
-
+    $(document).ready(function() {
+        $('#myCarousel').carousel({
+        interval: 10000
+        })
+    });
     // Shrink the navbar 
     navbarShrink();
 
@@ -55,5 +59,7 @@ window.addEventListener('DOMContentLoaded', event => {
     new SimpleLightbox({
         elements: '#portfolio a.portfolio-box'
     });
+    
 
 });
+
